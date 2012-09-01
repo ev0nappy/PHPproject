@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-variant:small-caps;
+	border-color: RGB(320, 320, 320);
+	border-radius: 100px;
+}
+
+table
+{
+	border-radius: 2px;
+	border-color: RGB(204, 204, 204);
+	border-collapse: collapse;
+}
+
+button
+{
+	border-radius: 4px;
+	padding: 5px;
+	color: RGB(110, 110, 110);
+}
+
+#bigSpace
+{
+	width: 280px;
+}
+
+#calendar
+{
+	width: 100%;
+	spacing: 20px;
+}
+
+#tittle
+{
+	text-align:left;
+	width: 720px;
+}
+th
+{
+	background:RGB(224, 224, 224);
+	border-radius: 4px;
+}
+td
+{
+	width: 50px;
+}
+.theCalendar
+{
+	border-width: thin
+	border-color: RGB(150, 150, 150);
+	background-color: RGB(234, 234, 234);
+}
+
+.grey
+{
+	color: RGB(110, 110, 110);
+}
+
+.eventsTable
+{
+	position:relative;
+	top: -49px;
+	left: 4px;
+}
+
+.event
+{
+	background-color: RGB(51, 164, 204);
+	border-radius: 3px;
+	height: 45px;
+	width: 160px;
+}
+
+.event span
+{
+	position:relative;
+	top: 30%;
+	left: 4%;
+	color: #FFF;
+	
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.weekDays
+{
+	height: 4px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: xx-small;
+}
+
+.day
+{
+	color: RGB(120, 120, 120);
+	font-size: small;
+	
+	position:relative;
+	top: -30%;
+	left: 80%;
+}
+
+.square
+{
+	background-color: #F1FDFE;
+	width: 70px;
+	height: 70px;
+}
